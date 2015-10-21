@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FanFanKan" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="index_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="wTX-gJ-hk0">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="game_box.png" translatesAutoresizingMaskIntoConstraints="NO" id="pCQ-7l-ozV">
+                                <rect key="frame" x="20" y="20" width="472" height="335"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="hTL-tj-1dL" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="49" y="37" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="101" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="3UI-9w-99Z" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="134" y="37" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="102" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wb7-IH-qR1" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="220" y="37" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="103" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="BmY-Kj-YKU" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="310" y="37" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="104" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qfo-hI-CPc" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="398" y="37" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="105" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="uWJ-wU-Io4" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="49" y="113" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="106" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="WKQ-jp-MLQ" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="134" y="113" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="107" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="lav-50-HVp" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="220" y="113" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="108" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="qEe-TR-RL7" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="310" y="113" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="109" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="Imr-T9-CGc" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="398" y="113" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="110" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cm2-0Z-hbt" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="49" y="189" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="111" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="hCz-tF-HgQ" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="134" y="189" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="112" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="egH-hX-tyU" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="220" y="189" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="113" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="rjv-mW-GIB" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="310" y="189" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="114" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="mx3-Is-2ry" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="398" y="189" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="115" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="il2-pE-8QV" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="49" y="265" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="116" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zeg-1A-iZP" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="134" y="265" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="117" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Qp-2P-gAN" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="220" y="265" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="118" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hfj-rJ-S5E" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="310" y="265" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="119" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contrary.png" translatesAutoresizingMaskIntoConstraints="NO" id="tZp-dt-v5O" customClass="MyImageView" customModule="FanFanKan" customModuleProvider="target">
+                                <rect key="frame" x="398" y="265" width="68" height="68"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rec_app_tuo_niao_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="clm-8o-XTX">
+                                <rect key="frame" x="509" y="215" width="113" height="126"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQC-h6-ZjN">
+                                <rect key="frame" x="509" y="88" width="54" height="54"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="openSound.png"/>
+                                <connections>
+                                    <action selector="musicButoonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e7c-mL-51r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxD-gj-YcB">
+                                <rect key="frame" x="583" y="88" width="54" height="54"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="btn_refresh-hd.png"/>
+                                <connections>
+                                    <action selector="refreshButtonPressde:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WqO-3g-c0c"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="90" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ZD-r6-Kjd">
+                                <rect key="frame" x="544" y="169" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="timeLabel" destination="3ZD-r6-Kjd" id="WdX-yv-uPv"/>
+                        <outlet property="tuoNiaoImageView" destination="clm-8o-XTX" id="xT9-LF-TiC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="73.5" y="364.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_refresh-hd.png" width="75" height="66"/>
+        <image name="contrary.png" width="99" height="99"/>
+        <image name="game_box.png" width="584" height="453"/>
+        <image name="index_bg.png" width="960" height="640"/>
+        <image name="openSound.png" width="84" height="74"/>
+        <image name="rec_app_tuo_niao_1.png" width="83" height="95"/>
+    </resources>
+</document>
