@@ -213,6 +213,10 @@ class ViewController: UIViewController {
     func somechange() {
         print("abc")
     }
+    
+    func antherfuc() {
+        print("123")
+    }
 
 }
 
