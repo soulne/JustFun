@@ -210,6 +210,9 @@ class ViewController: UIViewController {
         _remeberView = nil
     }
 
+    func somechange() {
+        print("abc")
+    }
 
 }
 
